@@ -229,13 +229,13 @@ class Doctor {
         telephoneNumber: json['telephone_number'] as String?,
         status: json['status'] as int?,
         lastLogin: json['last_login'] as String?,
-        image: json['image'] as dynamic?,
-        imageFilename: json['image_filename'] as dynamic?,
-        token: json['token'] as dynamic?,
+        image: json['image'] as dynamic,
+        imageFilename: json['image_filename'] as dynamic,
+        token: json['token'] as dynamic,
         mask: json['mask'] as String?,
         createdAt: json['created_at'] as String?,
         updatedAt: json['updated_at'] as String?,
-        deletedAt: json['deleted_at'] as dynamic?,
+        deletedAt: json['deleted_at'] as dynamic,
         days: (json['days'] as List<dynamic>?)
             ?.map((e) => Day.fromJson(e as Map<String, dynamic>))
             .toList(),
