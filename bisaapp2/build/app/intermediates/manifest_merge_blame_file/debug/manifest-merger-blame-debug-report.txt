@@ -1,0 +1,275 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="gh.com.bisa.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:45:5-66
+15-->/Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:45:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:46:5-79
+16-->/Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:46:22-76
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Optional, you'll have to check this permission by yourself. -->
+17-->/Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:47:5-71
+17-->/Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:47:22-68
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:49:5-81
+18-->/Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:49:22-78
+19
+20    <queries>
+20-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+21        <intent>
+21-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+22            <action android:name="android.support.customtabs.action.CustomTabsService" />
+22-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+22-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-87
+23        </intent>
+24    </queries>
+25
+26    <permission
+26-->[androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+27        android:name="gh.com.bisa.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="gh.com.bisa.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+31
+32    <application
+33        android:name="android.app.Application"
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+37        android:label="Bisa" >
+38        <receiver
+39            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+40            android:exported="false" >
+41
+42            <!--
+43            <intent-filter>
+44                <action android:name="android.intent.action.BOOT_COMPLETED" />
+45            </intent-filter>
+46            -->
+47        </receiver>
+48
+49        <activity
+50            android:name="com.example.bisa_app.MainActivity"
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52            android:exported="true"
+53            android:hardwareAccelerated="true"
+54            android:launchMode="singleTop"
+55            android:theme="@style/LaunchTheme"
+56            android:windowSoftInputMode="adjustResize" >
+57
+58            <!--
+59                 Specifies an Android theme to apply to this Activity as soon as
+60                 the Android process has started. This theme is visible to the user
+61                 while the Flutter UI initializes. After that, this theme continues
+62                 to determine the Window background behind the Flutter UI.
+63            -->
+64            <meta-data
+65                android:name="io.flutter.embedding.android.NormalTheme"
+66                android:resource="@style/NormalTheme" />
+67
+68            <intent-filter>
+69                <action android:name="android.intent.action.MAIN" />
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+72            </intent-filter>
+73            <intent-filter>
+74                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+84            android:name="flutterEmbedding"
+85            android:value="2" />
+86
+87        <activity
+87-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:47
+88            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+88-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+89            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+89-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-137
+90            android:exported="false"
+90-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+91            android:theme="@style/AppTheme" />
+91-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+92        <activity
+92-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:55
+93            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+93-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-112
+94            android:exported="false"
+94-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+95            android:theme="@style/ThemeTransparent" />
+95-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-52
+96        <activity
+96-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-28:55
+97            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+97-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-106
+98            android:exported="false"
+98-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+99            android:theme="@style/ThemeTransparent" />
+99-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-52
+100        <activity
+100-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-33:55
+101            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+101-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-126
+102            android:exported="false"
+102-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
+103            android:launchMode="singleInstance"
+103-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-48
+104            android:theme="@style/ThemeTransparent" />
+104-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-52
+105        <activity
+105-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-38:55
+106            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+106-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-120
+107            android:exported="false"
+107-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+108            android:launchMode="singleInstance"
+108-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-48
+109            android:theme="@style/ThemeTransparent" />
+109-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-52
+110
+111        <receiver
+111-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:40
+112            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+112-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-111
+113            android:enabled="true"
+113-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-35
+114            android:exported="false" />
+114-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-37
+115
+116        <meta-data
+116-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:36
+117            android:name="io.flutter.embedded_views_preview"
+117-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-61
+118            android:value="true" />
+118-->[:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-33
+119
+120        <provider
+120-->[:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+121            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+121-->[:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+122            android:authorities="gh.com.bisa.app.flutter.image_provider"
+122-->[:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+123            android:exported="false"
+123-->[:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+124            android:grantUriPermissions="true" >
+124-->[:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+125            <meta-data
+125-->[:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+126                android:name="android.support.FILE_PROVIDER_PATHS"
+126-->[:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+127                android:resource="@xml/flutter_image_picker_file_paths" />
+127-->[:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+128        </provider>
+129
+130        <activity
+130-->[:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+131            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+131-->[:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+132            android:exported="false"
+132-->[:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+133            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+133-->[:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+134
+135        <provider
+135-->[androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+136            android:name="androidx.startup.InitializationProvider"
+136-->[androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+137            android:authorities="gh.com.bisa.app.androidx-startup"
+137-->[androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+138            android:exported="false" >
+138-->[androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+139            <meta-data
+139-->[androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+140-->[androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+141                android:value="androidx.startup" />
+141-->[androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+142            <meta-data
+142-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+143                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+143-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+144                android:value="androidx.startup" />
+144-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+145            <meta-data
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+146                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+147                android:value="androidx.startup" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+148        </provider>
+149
+150        <uses-library
+150-->[androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+151            android:name="androidx.window.extensions"
+151-->[androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+152            android:required="false" />
+152-->[androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+153        <uses-library
+153-->[androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+154            android:name="androidx.window.sidecar"
+154-->[androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+155            android:required="false" />
+155-->[androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+156
+157        <receiver
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+158            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+159            android:directBootAware="false"
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+160            android:enabled="true"
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+161            android:exported="true"
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+162            android:permission="android.permission.DUMP" >
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+164                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+165            </intent-filter>
+166            <intent-filter>
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+167                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+168            </intent-filter>
+169            <intent-filter>
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+170                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+171            </intent-filter>
+172            <intent-filter>
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+173                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+174            </intent-filter>
+175        </receiver>
+176    </application>
+177
+178</manifest>

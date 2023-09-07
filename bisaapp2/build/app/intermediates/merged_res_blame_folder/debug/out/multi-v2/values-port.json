@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.bisa_app-mergeDebugResources-29:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/AMZ/.gradle/caches/transforms-3/a94bbbc708361add82843d3efdc34f3a/transformed/appcompat-1.5.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

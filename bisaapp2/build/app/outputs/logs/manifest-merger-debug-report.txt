@@ -1,0 +1,414 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:2:5-44:19
+MERGED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-48:19
+MERGED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-48:19
+MERGED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/eae1a492df7be9c6b112b5f412fc81d0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/eae1a492df7be9c6b112b5f412fc81d0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/461975242fb29185bb6778d6f51f6a72/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/461975242fb29185bb6778d6f51f6a72/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:1-50:12
+MERGED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:1-50:12
+MERGED from [:shared_preferences_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-50:12
+MERGED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:audioplayers_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/audioplayers_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:record] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/record/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_native_splash] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/AMZ/.gradle/caches/transforms-3/5bfab6b0974e93f50a59cfeb443a61f9/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/c132967ebfb7143f82aaee5ad8c6043e/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/AMZ/.gradle/caches/transforms-3/bdee5a551df9cad71551036b6a5164d4/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/AMZ/.gradle/caches/transforms-3/a94bbbc708361add82843d3efdc34f3a/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/AMZ/.gradle/caches/transforms-3/454d14e54dbe1fb8ce1a64fac37a293d/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.2] /Users/AMZ/.gradle/caches/transforms-3/28f4103f9354ed7c4d72875f697387e3/transformed/jetified-activity-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/AMZ/.gradle/caches/transforms-3/57f30582286401aab9247d574ff98200/transformed/webkit-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/8da0f5afc553797ee31aff061e4a9abf/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.5.0] /Users/AMZ/.gradle/caches/transforms-3/b897566ffc745be14ffc4d6cd53b6913/transformed/browser-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/b12fedb4183f4a058ecce998c3a5ed2e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/99eee9e0a8232cbf40a3dd87bd62e0a9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/44130fe9f7aa4e479b7c41de20944d33/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/b75a343ca9a0e5d5bb718cf850508aa2/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/60fa30adb8ac8e4f5dcf3fe75c2ceffa/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/1058d82881fca65a62ebff46f9f8eb07/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/d2079ac9351fac4cf5f19876904ab0cf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/f5e092e1c166e608f00a462ecf2162cc/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/AMZ/.gradle/caches/transforms-3/093aca941d8f7ac906404f798bcb0149/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/10f91cb276ff489fa67dbb19241dbb9e/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/3dd404e8e126bce29baa15cf46c739ad/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/8a8d8635d71f1e6ed0830ccbef4ec5e5/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/ce32acd922a52a75017a34cee54040b2/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/9bd0ff498db760bfcc790359fe8d6e4f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/AMZ/.gradle/caches/transforms-3/f007a16177f12c22e6270d0fa119928c/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/eae1a492df7be9c6b112b5f412fc81d0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/2d65bf600774e5ae2d82bf30b296fffa/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/d11022770916528350292d9bde8ee7fc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/6b0ff640bfb767b32f54bec498a59b88/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/461975242fb29185bb6778d6f51f6a72/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/AMZ/.gradle/caches/transforms-3/68e51756de346f663000c3e17c4f7fbb/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/da5e209f407c372afbe7f45e911b7bd6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:1-50:12
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:1-50:12
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:1-50:12
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:45:5-66
+MERGED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:45:5-66
+MERGED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:45:5-66
+	android:name
+		ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:45:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:46:5-79
+	android:name
+		ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:46:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:47:5-71
+MERGED from [:record] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/record/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-71
+MERGED from [:record] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/record/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:47:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:49:5-81
+	android:name
+		ADDED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml:49:22-78
+uses-sdk
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:audioplayers_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/audioplayers_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:audioplayers_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/audioplayers_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:record] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/record/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:record] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/record/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/AMZ/.gradle/caches/transforms-3/5bfab6b0974e93f50a59cfeb443a61f9/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/AMZ/.gradle/caches/transforms-3/5bfab6b0974e93f50a59cfeb443a61f9/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/c132967ebfb7143f82aaee5ad8c6043e/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/c132967ebfb7143f82aaee5ad8c6043e/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/AMZ/.gradle/caches/transforms-3/bdee5a551df9cad71551036b6a5164d4/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/AMZ/.gradle/caches/transforms-3/bdee5a551df9cad71551036b6a5164d4/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/AMZ/.gradle/caches/transforms-3/a94bbbc708361add82843d3efdc34f3a/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/AMZ/.gradle/caches/transforms-3/a94bbbc708361add82843d3efdc34f3a/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/AMZ/.gradle/caches/transforms-3/454d14e54dbe1fb8ce1a64fac37a293d/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/AMZ/.gradle/caches/transforms-3/454d14e54dbe1fb8ce1a64fac37a293d/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.2] /Users/AMZ/.gradle/caches/transforms-3/28f4103f9354ed7c4d72875f697387e3/transformed/jetified-activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] /Users/AMZ/.gradle/caches/transforms-3/28f4103f9354ed7c4d72875f697387e3/transformed/jetified-activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/AMZ/.gradle/caches/transforms-3/57f30582286401aab9247d574ff98200/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/AMZ/.gradle/caches/transforms-3/57f30582286401aab9247d574ff98200/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/8da0f5afc553797ee31aff061e4a9abf/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/8da0f5afc553797ee31aff061e4a9abf/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.5.0] /Users/AMZ/.gradle/caches/transforms-3/b897566ffc745be14ffc4d6cd53b6913/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] /Users/AMZ/.gradle/caches/transforms-3/b897566ffc745be14ffc4d6cd53b6913/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/b12fedb4183f4a058ecce998c3a5ed2e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/b12fedb4183f4a058ecce998c3a5ed2e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/99eee9e0a8232cbf40a3dd87bd62e0a9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/99eee9e0a8232cbf40a3dd87bd62e0a9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/44130fe9f7aa4e479b7c41de20944d33/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/44130fe9f7aa4e479b7c41de20944d33/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/b75a343ca9a0e5d5bb718cf850508aa2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/b75a343ca9a0e5d5bb718cf850508aa2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/60fa30adb8ac8e4f5dcf3fe75c2ceffa/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/60fa30adb8ac8e4f5dcf3fe75c2ceffa/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/1058d82881fca65a62ebff46f9f8eb07/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/1058d82881fca65a62ebff46f9f8eb07/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/d2079ac9351fac4cf5f19876904ab0cf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/AMZ/.gradle/caches/transforms-3/d2079ac9351fac4cf5f19876904ab0cf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/f5e092e1c166e608f00a462ecf2162cc/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/f5e092e1c166e608f00a462ecf2162cc/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/AMZ/.gradle/caches/transforms-3/093aca941d8f7ac906404f798bcb0149/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/AMZ/.gradle/caches/transforms-3/093aca941d8f7ac906404f798bcb0149/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/10f91cb276ff489fa67dbb19241dbb9e/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/10f91cb276ff489fa67dbb19241dbb9e/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/3dd404e8e126bce29baa15cf46c739ad/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/3dd404e8e126bce29baa15cf46c739ad/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/8a8d8635d71f1e6ed0830ccbef4ec5e5/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/8a8d8635d71f1e6ed0830ccbef4ec5e5/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/ce32acd922a52a75017a34cee54040b2/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/ce32acd922a52a75017a34cee54040b2/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/9bd0ff498db760bfcc790359fe8d6e4f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/9bd0ff498db760bfcc790359fe8d6e4f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/AMZ/.gradle/caches/transforms-3/f007a16177f12c22e6270d0fa119928c/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/AMZ/.gradle/caches/transforms-3/f007a16177f12c22e6270d0fa119928c/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/eae1a492df7be9c6b112b5f412fc81d0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/eae1a492df7be9c6b112b5f412fc81d0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/2d65bf600774e5ae2d82bf30b296fffa/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/2d65bf600774e5ae2d82bf30b296fffa/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/d11022770916528350292d9bde8ee7fc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/d11022770916528350292d9bde8ee7fc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/6b0ff640bfb767b32f54bec498a59b88/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/AMZ/.gradle/caches/transforms-3/6b0ff640bfb767b32f54bec498a59b88/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/461975242fb29185bb6778d6f51f6a72/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/461975242fb29185bb6778d6f51f6a72/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/AMZ/.gradle/caches/transforms-3/68e51756de346f663000c3e17c4f7fbb/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/AMZ/.gradle/caches/transforms-3/68e51756de346f663000c3e17c4f7fbb/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/da5e209f407c372afbe7f45e911b7bd6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/da5e209f407c372afbe7f45e911b7bd6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/AMZ/Documents/repo/bisaapp/bisaapp2/android/app/src/debug/AndroidManifest.xml
+queries
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-87
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:47
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+	android:configChanges
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:55
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-112
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-28:55
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-106
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-33:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-126
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-38:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-120
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:40
+	android:enabled
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-111
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:36
+	android:value
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-33
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-61
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/eae1a492df7be9c6b112b5f412fc81d0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/AMZ/.gradle/caches/transforms-3/eae1a492df7be9c6b112b5f412fc81d0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/AMZ/.gradle/caches/transforms-3/f3bb795fb510350d94224f429c9e3932/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/AMZ/.gradle/caches/transforms-3/1ba8d05a0965080943586c494e0aa4b2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+permission#gh.com.bisa.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+uses-permission#gh.com.bisa.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/AMZ/.gradle/caches/transforms-3/1ef430611002ea02c2a417d6a8e7a0fc/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/AMZ/.gradle/caches/transforms-3/12ea8c23e6843ad7132d75061a5d2589/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/AMZ/.gradle/caches/transforms-3/222ac0f6b53f12effb57f0dd7c9db897/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
