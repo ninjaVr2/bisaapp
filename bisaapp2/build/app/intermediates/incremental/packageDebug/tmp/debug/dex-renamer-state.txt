@@ -1,7 +1,0 @@
-#Thu Sep 07 16:03:53 GMT 2023
-base.1=/Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
-path.1=classes2.dex
-base.0=/Users/AMZ/Documents/repo/bisaapp/bisaapp2/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
-path.0=classes.dex
